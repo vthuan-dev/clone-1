@@ -2,13 +2,14 @@ export default function About() {
   return (
     <section className="bg-white py-8 border-t-4 border-gray-100">
       <div className="max-w-[1200px] mx-auto px-5">
-        <div className="flex items-center gap-4 mb-5">
-          <div className="flex-1 h-px bg-[#ddd]" />
-          <h2 className="text-[#e85d04] text-[15px] font-extrabold uppercase tracking-widest whitespace-nowrap text-center">
-            U888 – U888.COM – NHÀ CÁI U888 CHÍNH THỨC NĂM 2026, UU88 +88K
+        <div className="flex items-center gap-3 mb-5">
+          <div className="hidden md:block flex-1 h-px bg-[#ddd]" />
+          <h2 className="text-[#e85d04] text-[13px] md:text-[15px] font-extrabold uppercase tracking-wide md:tracking-widest text-center md:whitespace-nowrap">
+            U888 – U888.COM – NHÀ CÁI U888 CHÍNH THỨC NĂM 2026
           </h2>
-          <div className="flex-1 h-px bg-[#ddd]" />
+          <div className="hidden md:block flex-1 h-px bg-[#ddd]" />
         </div>
+        <a href="https://u888h8.com?f=6670012" className="block">
         <div className="space-y-4 text-[13.5px] text-[#444] leading-relaxed">
           <p>
             Chào mừng bạn gia nhập thế giới giải trí đỉnh cao! Để khởi đầu hành trình chinh phục những
@@ -37,11 +38,12 @@ export default function About() {
           </ol>
           <p className="font-semibold text-[#333]">
             Đừng bỏ lỡ cơ hội vàng để bắt đầu hành trình trở thành cao thủ.{' '}
-            <a href="https://u888h8.com?f=6670012" className="text-[#e85d04] underline font-bold">
+            <span className="text-[#e85d04] underline font-bold">
               Đăng ký ngay hôm nay – Nhận quà liền tay!
-            </a>
+            </span>
           </p>
         </div>
+        </a>
       </div>
     </section>
   )
