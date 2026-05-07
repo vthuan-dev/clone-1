@@ -32,13 +32,13 @@ export default function About() {
             Cùng đội ngũ CSKH 24/7 chuyên nghiệp, U88 đạt mức <strong>95%</strong> người chơi đánh giá
             tốt mỗi ngày – khẳng định rõ ràng uy tín và chất lượng vượt trội trên thị trường.
           </p>
-          <p>
+          {/* <p>
             🔴 Đăng ký u888 ngay tại:{' '}
             <a href="https://11prosnowmeprona.za.com/" className="text-[#e85d04] font-bold underline">
               https://11prosnowmeprona.za.com/
             </a>{' '}
             để nhận 88K miễn phí và khám phá hệ sinh thái cá cược đỉnh cao.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>
