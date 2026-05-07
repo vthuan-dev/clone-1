@@ -20,7 +20,7 @@ export default function GameCategories() {
               <img
                 src={cat.src}
                 alt={cat.label}
-                className="w-full h-[150px] md:h-[270px] object-cover block group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-[180px] md:h-[270px] object-cover block group-hover:scale-105 transition-transform duration-300"
               />
             </div>
           ))}
