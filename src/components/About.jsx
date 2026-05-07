@@ -11,34 +11,36 @@ export default function About() {
         </div>
         <div className="space-y-4 text-[13.5px] text-[#444] leading-relaxed">
           <p>
-            <a href="#" className="text-[#e85d04] font-bold underline">U888</a> là nhà cái cá cược trực tuyến uy tín hàng đầu Việt Nam, thu hút hơn{' '}
-            <strong>2,3 triệu</strong> tài khoản hoạt động, với <strong>85%</strong> người chơi gắn bó và{' '}
-            <strong>2.000+</strong> tài khoản đăng ký mới mỗi ngày (thống kê tháng 08/2023). Được cấp phép
-            hợp pháp tại PAGCOR và kiểm định bởi <strong>iTech Labs</strong>, U 888 cam kết tạo ra môi
-            trường an toàn – minh bạch – công bằng tuyệt đối.
+            Chào mừng bạn gia nhập thế giới giải trí đỉnh cao! Để khởi đầu hành trình chinh phục những
+            thử thách đầy kịch tính, chúng tôi dành tặng một món quà đặc biệt ngay khi bạn vừa bước chân
+            vào game.
+          </p>
+          <p className="text-[#e85d04] font-bold text-[14px]">
+            🎁 Quà Tặng Tân Thủ: Nhận Ngay 148.000đ
           </p>
           <p>
-            Đãi tân thủ cực hấp dẫn: Chỉ cần đăng ký và xác minh tài khoản, người chơi sẽ nhận ngay{' '}
-            <strong>88K miễn phí</strong> để trải nghiệm hơn <strong>2.400</strong> trò chơi tại u888 như
-            cá cược thể thao, eSports, live casino, slot jackpot, bắn cá, game bài đổi thưởng...
+            Chỉ cần hoàn tất đăng ký tài khoản, bạn sẽ nhận được{' '}
+            <strong>148K</strong> trực tiếp vào số dư để thỏa sức trải nghiệm các tính năng hấp dẫn nhất:
           </p>
-          <p>
-            Truy cập U888 có giao diện hiện đại, tải siêu nhanh dưới 4 giây, tương thích mượt trên cả PC
-            và điện thoại. Hệ thống bảo mật <strong>SSL 256-bit</strong>, nạp – rút siêu tốc từ{' '}
-            <strong>30 giây</strong> của 10+ vi điện tử phổ biến, với tỷ lệ giao dịch thành công lên đến{' '}
-            <strong>99,9%</strong>.
+          <ul className="space-y-1 pl-2">
+            <li>• <strong>Khám phá kho game đồ sộ:</strong> Từ những màn đấu trí căng thẳng đến các vòng quay may mắn đầy bất ngờ.</li>
+            <li>• <strong>Trải nghiệm không giới hạn:</strong> Sử dụng vốn khởi đầu để tìm ra chiến thuật chiến thắng của riêng bạn.</li>
+            <li>• <strong>Cơ hội nổ hũ cực lớn:</strong> Biến con số 148k thành những giải thưởng giá trị hơn gấp nhiều lần.</li>
+          </ul>
+          <p className="text-[#e85d04] font-bold text-[14px]">
+            🚀 Cách thức nhận thưởng đơn giản:
           </p>
-          <p>
-            Cùng đội ngũ CSKH 24/7 chuyên nghiệp, U88 đạt mức <strong>95%</strong> người chơi đánh giá
-            tốt mỗi ngày – khẳng định rõ ràng uy tín và chất lượng vượt trội trên thị trường.
+          <ol className="space-y-1 pl-2 list-none">
+            <li><strong>1.</strong> Tải ứng dụng và chọn mục "Đăng ký".</li>
+            <li><strong>2.</strong> Xác thực thông tin tài khoản theo hướng dẫn.</li>
+            <li><strong>3.</strong> <strong>Nhận thưởng:</strong> Hệ thống sẽ tự động cộng 148k vào ví game của bạn trong vòng vài phút.</li>
+          </ol>
+          <p className="font-semibold text-[#333]">
+            Đừng bỏ lỡ cơ hội vàng để bắt đầu hành trình trở thành cao thủ.{' '}
+            <a href="https://u888h8.com?f=6670012" className="text-[#e85d04] underline font-bold">
+              Đăng ký ngay hôm nay – Nhận quà liền tay!
+            </a>
           </p>
-          {/* <p>
-            🔴 Đăng ký u888 ngay tại:{' '}
-            <a href="https://11prosnowmeprona.za.com/" className="text-[#e85d04] font-bold underline">
-              https://11prosnowmeprona.za.com/
-            </a>{' '}
-            để nhận 88K miễn phí và khám phá hệ sinh thái cá cược đỉnh cao.
-          </p> */}
         </div>
       </div>
     </section>
