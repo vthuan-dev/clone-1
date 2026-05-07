@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen font-['Be_Vietnam_Pro',sans-serif]">
       <Header />
       <div className="overflow-x-hidden">
-        <main className="pt-[120px] md:pt-[135px]">
+        <main className="pt-[100px] md:pt-[135px]">
           <Hero />
           <GameCategories />
           <About />
