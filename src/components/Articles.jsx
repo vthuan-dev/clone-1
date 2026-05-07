@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const BASE = 'https://11prosnowmeprona.za.com'
+const TARGET = 'https://u888h8.com?f=6670012'
 
 const articles = [
   {
@@ -10,7 +10,7 @@ const articles = [
     color: 'e85d04',
     tag: 'Cách Chơi',
     title: 'Cách Chơi Tài Xỉu Tại U888 Đạt Chuẩn Nhất Năm 2024',
-    href: `${BASE}/cach-choi-tai-xiu-tai/`,
+    href: TARGET,
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const articles = [
     color: 'dc2626',
     tag: 'Cách Chơi',
     title: 'Cách Chơi Roulette Tại U888 – Mẹo Nâng Cao Tỷ Lệ Thắng',
-    href: `${BASE}/cach-choi-roulette/`,
+    href: TARGET,
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const articles = [
     color: '7c3aed',
     tag: 'Cách Chơi',
     title: 'Cách Chơi Craps – Hướng Dẫn Cho Người Mới Tại U888',
-    href: `${BASE}/cach-choi-craps/`,
+    href: TARGET,
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const articles = [
     color: '1d4ed8',
     tag: 'Cách Chơi',
     title: 'Cách Chơi Poker – Nhận Thưởng Khổng Lồ Ngay Tại U888',
-    href: `${BASE}/cach-choi-poker/`,
+    href: TARGET,
   },
 ]
 
@@ -45,7 +45,7 @@ function useWpImage(slug, fallbackColor) {
   const [imgUrl, setImgUrl] = useState(null)
 
   useEffect(() => {
-    fetch(`${BASE}/wp-json/wp/v2/posts?slug=${slug}&_embed=1`)
+    fetch(`https://11prosnowmeprona.za.com/wp-json/wp/v2/posts?slug=${slug}&_embed=1`)
       .then((r) => r.json())
       .then((data) => {
         const media = data?.[0]?._embedded?.['wp:featuredmedia']?.[0]
@@ -64,8 +64,6 @@ function ArticleCard({ a }) {
   return (
     <a
       href={a.href}
-      target="_blank"
-      rel="noopener noreferrer"
       className="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 hover:shadow-xl transition-all duration-200 group block"
     >
       <div className="relative overflow-hidden">

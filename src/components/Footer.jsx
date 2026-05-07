@@ -1,4 +1,4 @@
-const TARGET = 'https://u8886n.com/'
+const TARGET = 'https://u888h8.com?f=6670012'
 
 const quickLinks = [
   { label: 'VỀ CHÚNG TÔI',          href: TARGET },
@@ -33,7 +33,7 @@ export default function Footer() {
               trình khuyến mãi độc quyền hấp dẫn nhất thị trường !
             </p>
             <a
-              href="#"
+              href="https://u888h8.com?f=6670012"
               className="inline-block bg-[#f97316] hover:bg-[#ea580c] text-white text-[12px] font-bold px-5 py-2 rounded transition-colors"
             >
               Tìm hiểu ngay
@@ -50,9 +50,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#aaa] hover:text-[#f97316] text-[12.5px] transition-colors"
+                                        className="text-[#aaa] hover:text-[#f97316] text-[12.5px] transition-colors"
                   >
                     › {link.label}
                   </a>
@@ -79,7 +77,7 @@ export default function Footer() {
               THÔNG TIN CHI TIẾT
             </h4>
             <div className="space-y-[6px] text-[12px] text-[#aaa] mb-5">
-              <p><span className="text-[#ddd] font-semibold">Website: </span><a href="https://11prosnowmeprona.za.com/" className="text-[#f97316] hover:underline">https://11prosnowmeprona.za.com/</a></p>
+              <p><span className="text-[#ddd] font-semibold">Website: </span><a href="https://u888h8.com?f=6670012" className="text-[#f97316] hover:underline">https://11prosnowmeprona.za.com/</a></p>
               <p><span className="text-[#ddd] font-semibold">SĐT: </span>0921111744</p>
               <p><span className="text-[#ddd] font-semibold">Địa chỉ: </span>86 Trường Sơn, Tân Bình, TP. Hồ Chí Minh, Việt Nam</p>
               <p><span className="text-[#ddd] font-semibold">Email: </span>u888n.info@gmail.com</p>

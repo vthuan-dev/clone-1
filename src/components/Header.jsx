@@ -49,7 +49,7 @@ export default function Header() {
 
               {/* Logo */}
               <div className="flex-1 flex justify-center md:justify-start">
-                <a href="https://u8886n.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://u888h8.com?f=6670012">
                   <img
                     src="/images/logo.png"
                     alt="U888 Logo"
@@ -65,7 +65,7 @@ export default function Header() {
             {/* Row 2 (mobile) / inline (desktop): Buttons */}
             <div className="flex gap-2 md:gap-3 justify-center md:justify-end">
               <div className="relative inline-block">
-                <a href="https://u8886n.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://u888h8.com?f=6670012">
                   <button className="bg-[#2e7d32] hover:bg-[#1b5e20] text-white font-bold text-[11px] md:text-[12px] px-4 md:px-5 py-[7px] rounded-lg transition-colors tracking-wide shadow-md">
                     ĐĂNG KÝ
                   </button>
@@ -83,7 +83,7 @@ export default function Header() {
                   +148K
                 </span>
               </div>
-              <a href="https://u8886n.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://u888h8.com?f=6670012">
                 <button className="bg-[#c0392b] hover:bg-[#a93226] text-white font-bold text-[11px] md:text-[12px] px-4 md:px-5 py-[7px] rounded-lg transition-colors tracking-wide shadow-md">
                   ĐĂNG NHẬP
                 </button>
@@ -99,7 +99,8 @@ export default function Header() {
               {navItems.map((item) => (
                 <li key={item.label}>
                   <a
-                    href="#"
+                    href="https://u888h8.com?f=6670012"
+                    target="_self"
                     className={`block px-4 py-[18px] text-[13px] font-bold tracking-wide whitespace-nowrap transition-colors
                       ${item.active
                         ? 'text-white border-t-2 border-white'
@@ -146,8 +147,9 @@ export default function Header() {
               {navItems.map((item) => (
                 <li key={item.label}>
                   <a
-                    href="#"
-                    onClick={closeMenu}
+                    href="https://u888h8.com?f=6670012"
+                    target="_self"
+                    onClick={() => setMenuOpen(false)}
                     className={`block px-6 py-[14px] text-[13px] font-semibold border-b border-gray-100 transition-colors
                       ${item.active ? 'text-[#e8401a]' : 'text-[#333] hover:text-[#e8401a]'}`}
                   >
