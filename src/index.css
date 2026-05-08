@@ -20,3 +20,21 @@ body {
 #root {
   width: 100%;
 }
+
+@keyframes tele-blink {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.06); }
+}
+
+@keyframes tele-glow {
+  0%, 100% { box-shadow: 0 0 8px 2px #29b6f6aa, 0 2px 12px #0088ccaa; }
+  50% { box-shadow: 0 0 18px 6px #29b6f6ee, 0 4px 24px #0088cccc; }
+}
+
+.tele-blink-text {
+  animation: tele-blink 1.1s ease-in-out infinite;
+}
+
+.tele-glow-btn {
+  animation: tele-glow 1.4s ease-in-out infinite;
+}
