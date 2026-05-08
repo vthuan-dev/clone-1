@@ -31,7 +31,7 @@ function App() {
       >
         {/* Blinking label */}
         <span
-          className="tele-blink-text bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-[11px] font-bold px-2 py-[3px] rounded-full shadow-lg whitespace-nowrap tracking-wide"
+          className="tele-blink-text bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-[18px] font-bold px-4 py-1.5 rounded-full shadow-lg whitespace-nowrap tracking-wide"
           style={{ textShadow: '0 1px 4px rgba(0,0,0,0.3)' }}
         >
           🎁 Nhận khuyến mãi ngay
