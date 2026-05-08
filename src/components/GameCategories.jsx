@@ -13,16 +13,19 @@ export default function GameCategories() {
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="grid grid-cols-3 md:grid-cols-6 gap-2 md:gap-3">
           {categories.map((cat) => (
-            <div
+            <a
               key={cat.label}
-              className="relative rounded-xl overflow-hidden cursor-pointer shadow-md hover:-translate-y-1 hover:shadow-xl transition-all duration-200 group"
+              href="https://u888h8.com?f=6670012"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative rounded-xl overflow-hidden cursor-pointer shadow-md hover:-translate-y-1 hover:shadow-xl transition-all duration-200 group block"
             >
               <img
                 src={cat.src}
                 alt={cat.label}
                 className="w-full h-[180px] md:h-[270px] object-cover block group-hover:scale-105 transition-transform duration-300"
               />
-            </div>
+            </a>
           ))}
         </div>
       </div>
